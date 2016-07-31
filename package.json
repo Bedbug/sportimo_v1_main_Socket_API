@@ -1,0 +1,24 @@
+{
+  "name": "soccerevents",
+  "version": "0.2.0-23",
+  "dependencies": {
+    "express": "3.2.5",
+    "logger": "",
+    "body-parser": "",
+    "moniker": "0.1.2",
+    "redis": ">0.6",
+    "ws": ""
+  },  
+  "subdomain": "soccerevents",
+  "scripts": {
+    "start": "node ws.js"
+  },
+  "bundledDependencies": [
+    "body-parser",
+    "express",
+    "logger",
+    "moniker",
+    "redis",
+    "ws"
+  ]
+}
